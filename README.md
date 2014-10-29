@@ -22,3 +22,9 @@ The meaning of the variables is as follows:
 
 * `DOCKER_HOST` is the hostname of the machine hosting the docker container
 * `MAPPED_PORT` the port mapped to the default 6080 port, in the previous example this would have been 44444.
+
+# References
+
+This image uses [NoVNC](https://github.com/kanaka/noVNC).
+
+
