@@ -8,7 +8,7 @@ RUN apt-get update -y && \
         procps \
         python \
         python-numpy && \
-    curl -sL https://github.com/kanaka/noVNC/archive/v0.5.tar.gz \
+    curl -sSL https://github.com/kanaka/noVNC/archive/v0.5.tar.gz \
         | tar zxf - 
 
 CMD ["/noVNC-0.5/utils/launch.sh"]
